@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - WorkHub</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">WorkHub</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="auth/login.php" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="auth/register.php" class="nav-link btn-primary">Get Started</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Frequently Asked Questions</h1>
+                <p>Find answers to common questions about WorkHub</p>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <div class="faq-categories">
+                    <button class="faq-category active" data-category="general">General</button>
+                    <button class="faq-category" data-category="clients">For Clients</button>
+                    <button class="faq-category" data-category="freelancers">For Freelancers</button>
+                    <button class="faq-category" data-category="payments">Payments</button>
+                    <button class="faq-category" data-category="support">Support</button>
+                </div>
+
+                <div class="faq-content">
+                    <!-- General FAQs -->
+                    <div class="faq-group active" data-category="general">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What is WorkHub?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>WorkHub is a professional freelancing platform that connects businesses with talented freelancers worldwide. We offer a secure, easy-to-use platform for hiring and working with professionals across various industries.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How does WorkHub work?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>It's simple! Clients post projects or browse freelancer services, freelancers submit proposals or offer services, and once hired, they collaborate through our platform. We handle payments securely and provide tools for communication and project management.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Is WorkHub free to use?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Yes, creating an account and browsing services is completely free. We charge a small service fee (5%) only when transactions are completed successfully.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client FAQs -->
+                    <div class="faq-group" data-category="clients">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How do I hire a freelancer?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Browse our services, review freelancer profiles and ratings, then place an order or send a custom request. You can communicate with freelancers before hiring to ensure they're the right fit for your project.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How do I know if a freelancer is qualified?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>All freelancers have detailed profiles showing their skills, experience, portfolio, and client reviews. We also verify freelancer identities and track their performance on our platform.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What if I'm not satisfied with the work?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We offer a satisfaction guarantee. If you're not happy with the delivered work, you can request revisions or contact our support team for dispute resolution. In extreme cases, we may provide a full refund.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Freelancer FAQs -->
+                    <div class="faq-group" data-category="freelancers">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How do I get started as a freelancer?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Create your freelancer account, complete your profile with skills and portfolio, then start creating services or bidding on projects. The more complete your profile, the more likely you are to attract clients.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How much can I earn on WorkHub?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Earnings vary based on your skills, experience, and the services you offer. Many freelancers earn anywhere from $500 to $5000+ per month. Top performers can earn significantly more.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How do I set my prices?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>You have full control over your pricing. Research similar services on our platform, consider your experience level, and price competitively. You can always adjust your prices as you gain more experience and positive reviews.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Payment FAQs -->
+                    <div class="faq-group" data-category="payments">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How do payments work?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We use a secure escrow system. Clients pay upfront, funds are held securely, and released to freelancers upon successful completion of work. This protects both parties.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What payment methods do you accept?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>We accept major credit cards (Visa, MasterCard, American Express), PayPal, and bank transfers. All payments are processed securely through encrypted channels.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>When do freelancers get paid?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Freelancers receive payment once the client approves the delivered work or after a 7-day auto-approval period. Payments are typically processed within 1-3 business days.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Support FAQs -->
+                    <div class="faq-group" data-category="support">
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>How can I contact customer support?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>You can reach our support team through live chat, email at support@workhub.com, or by submitting a ticket through your dashboard. We typically respond within 24 hours.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>What are your support hours?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Our support team is available 24/7 for urgent issues. For general inquiries, our standard support hours are Monday-Friday, 9 AM - 6 PM EST.</p>
+                            </div>
+                        </div>
+
+                        <div class="faq-item">
+                            <div class="faq-question">
+                                <h3>Do you offer phone support?</h3>
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                            <div class="faq-answer">
+                                <p>Phone support is available for Pro and Enterprise plan subscribers. Basic plan users can access support through chat and email.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Still have questions -->
+        <section class="contact-support">
+            <div class="container">
+                <div class="support-card">
+                    <h2>Still have questions?</h2>
+                    <p>Can't find the answer you're looking for? Our support team is here to help.</p>
+                    <div class="support-actions">
+                        <a href="contact.html" class="btn btn-primary">Contact Support</a>
+                        <a href="help.html" class="btn btn-secondary">Help Center</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>WorkHub</h3>
+                    <p>Your trusted partner for online professional services</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="help.html">Help Center</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 WorkHub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // FAQ Category switching
+            const categoryButtons = document.querySelectorAll('.faq-category');
+            const faqGroups = document.querySelectorAll('.faq-group');
+
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+                    
+                    // Update active button
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Show corresponding FAQ group
+                    faqGroups.forEach(group => {
+                        if (group.getAttribute('data-category') === category) {
+                            group.classList.add('active');
+                        } else {
+                            group.classList.remove('active');
+                        }
+                    });
+                });
+            });
+
+            // FAQ accordion functionality
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const faqItem = this.parentElement;
+                    const answer = faqItem.querySelector('.faq-answer');
+                    const icon = this.querySelector('i');
+                    
+                    // Toggle active state
+                    faqItem.classList.toggle('active');
+                    
+                    // Rotate icon
+                    if (faqItem.classList.contains('active')) {
+                        icon.style.transform = 'rotate(180deg)';
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                    } else {
+                        icon.style.transform = 'rotate(0deg)';
+                        answer.style.maxHeight = '0';
+                    }
+                });
+            });
+        });
+    </script>
+    
+    <style>
+        .faq-section {
+            padding: 80px 0;
+        }
+        
+        .faq-categories {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+        }
+        
+        .faq-category {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid #3498db;
+            background: transparent;
+            color: #3498db;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 500;
+        }
+        
+        .faq-category:hover,
+        .faq-category.active {
+            background: #3498db;
+            color: white;
+        }
+        
+        .faq-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-group {
+            display: none;
+        }
+        
+        .faq-group.active {
+            display: block;
+        }
+        
+        .faq-item {
+            background: white;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            padding: 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s;
+        }
+        
+        .faq-question:hover {
+            background: #f8f9fa;
+        }
+        
+        .faq-question h3 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 1.1rem;
+        }
+        
+        .faq-question i {
+            color: #3498db;
+            transition: transform 0.3s;
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .faq-answer p {
+            padding: 0 1.5rem 1.5rem;
+            color: #666;
+            line-height: 1.6;
+            margin: 0;
+        }
+        
+        .contact-support {
+            padding: 80px 0;
+            background: #f8f9fa;
+        }
+        
+        .support-card {
+            background: white;
+            padding: 3rem;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .support-card h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .support-card p {
+            color: #666;
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+        
+        .support-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        @media (max-width: 768px) {
+            .faq-categories {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .faq-question {
+                padding: 1rem;
+            }
+            
+            .faq-question h3 {
+                font-size: 1rem;
+            }
+            
+            .support-actions {
+                flex-direction: column;
+            }
+        }
+    </style>
+</body>
+</html>

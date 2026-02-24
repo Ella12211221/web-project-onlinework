@@ -1,0 +1,418 @@
+/* Profile Management System Styles */
+
+/* Profile Photo Styles */
+.profile-photo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffd700;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
+}
+
+.profile-photo-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #228b22, #ffd700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #ffd700;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.profile-photo-placeholder:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
+}
+
+.profile-photo-placeholder i {
+    font-size: 4rem;
+    color: #0a0e1a;
+}
+
+/* Admin Profile Photo */
+.admin-profile-photo-placeholder {
+    background: linear-gradient(45deg, #ffd700, #228b22);
+}
+
+.admin-profile-photo-placeholder i {
+    color: #0a0e1a;
+}
+
+/* Profile Form Styles */
+.profile-form {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 2rem;
+    border: 1px solid rgba(34, 139, 34, 0.2);
+    margin-bottom: 2rem;
+}
+
+.profile-form h3 {
+    color: #ffd700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-input {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid rgba(34, 139, 34, 0.3);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #ffd700;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid rgba(34, 139, 34, 0.3);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+}
+
+.form-select option {
+    background: #1a1f2e;
+    color: white;
+}
+
+/* Button Styles */
+.btn-primary {
+    background: linear-gradient(45deg, #228b22, #ffd700);
+    color: #0a0e1a;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(34, 139, 34, 0.4);
+}
+
+.btn-secondary {
+    background: rgba(255, 215, 0, 0.2);
+    color: #ffd700;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 215, 0, 0.3);
+    transform: translateY(-1px);
+}
+
+.btn-danger {
+    background: rgba(255, 82, 82, 0.2);
+    color: #ff5252;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid rgba(255, 82, 82, 0.3);
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-danger:hover {
+    background: rgba(255, 82, 82, 0.3);
+    transform: translateY(-1px);
+}
+
+/* Grid Layouts */
+.profile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 3rem;
+}
+
+.profile-grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+/* Statistics Cards */
+.stat-card {
+    background: rgba(34, 139, 34, 0.1);
+    border: 1px solid rgba(34, 139, 34, 0.3);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(34, 139, 34, 0.2);
+}
+
+.stat-card.warning {
+    background: rgba(255, 215, 0, 0.1);
+    border-color: rgba(255, 215, 0, 0.3);
+}
+
+.stat-card.warning:hover {
+    box-shadow: 0 10px 25px rgba(255, 215, 0, 0.2);
+}
+
+.stat-card h4 {
+    color: #228b22;
+    margin-bottom: 1rem;
+}
+
+.stat-card.warning h4 {
+    color: #ffd700;
+}
+
+.stat-value {
+    font-size: 2rem;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+.stat-card.warning .stat-value {
+    color: #ff6b6b;
+}
+
+/* Account Information */
+.account-info {
+    background: rgba(34, 139, 34, 0.1);
+    border: 1px solid rgba(34, 139, 34, 0.3);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.account-info h4 {
+    color: #228b22;
+    margin-bottom: 1.5rem;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(34, 139, 34, 0.2);
+}
+
+.info-row:last-child {
+    border-bottom: none;
+}
+
+.info-label {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.info-value {
+    color: #ffd700;
+    font-weight: 600;
+}
+
+/* Security Section */
+.security-section {
+    background: rgba(255, 215, 0, 0.1);
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.security-section h4 {
+    color: #ffd700;
+    margin-bottom: 1.5rem;
+}
+
+/* Quick Actions */
+.quick-actions {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(34, 139, 34, 0.2);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.quick-actions h4 {
+    color: #ffd700;
+    margin-bottom: 1.5rem;
+}
+
+.action-link {
+    background: rgba(34, 139, 34, 0.2);
+    color: #228b22;
+    padding: 1rem;
+    border: 1px solid rgba(34, 139, 34, 0.3);
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.action-link:hover {
+    background: rgba(34, 139, 34, 0.3);
+    transform: translateX(5px);
+}
+
+.action-link.warning {
+    background: rgba(255, 215, 0, 0.2);
+    color: #ffd700;
+    border-color: rgba(255, 215, 0, 0.3);
+}
+
+.action-link.warning:hover {
+    background: rgba(255, 215, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .profile-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .profile-grid-2 {
+        grid-template-columns: 1fr;
+    }
+    
+    .profile-photo,
+    .profile-photo-placeholder {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .profile-photo-placeholder i {
+        font-size: 3rem;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+    }
+}
+
+/* Animation Classes */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.slide-in {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* File Upload Styles */
+.file-upload-area {
+    border: 2px dashed rgba(34, 139, 34, 0.3);
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.file-upload-area:hover {
+    border-color: #ffd700;
+    background: rgba(255, 215, 0, 0.05);
+}
+
+.file-upload-area.dragover {
+    border-color: #228b22;
+    background: rgba(34, 139, 34, 0.1);
+}
+
+/* Success/Error Messages */
+.message {
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.message.success {
+    background: rgba(34, 139, 34, 0.2);
+    color: #228b22;
+    border: 1px solid rgba(34, 139, 34, 0.3);
+}
+
+.message.error {
+    background: rgba(255, 82, 82, 0.2);
+    color: #ff5252;
+    border: 1px solid rgba(255, 82, 82, 0.3);
+}
+
+.message.info {
+    background: rgba(255, 215, 0, 0.2);
+    color: #ffd700;
+    border: 1px solid rgba(255, 215, 0, 0.3);
+}
