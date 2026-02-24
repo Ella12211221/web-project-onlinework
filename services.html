@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Services - Concordial Nexus</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html"><i class="fas fa-chart-line"></i> Concordial Nexus</a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="auth/login.php" class="nav-link">Login</a></li>
+                    <li class="nav-item"><a href="auth/register.php" class="nav-link btn-primary">Get Started</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="services-hero">
+            <div class="hero-content">
+                <h1>Investment Services</h1>
+                <p>Discover our comprehensive Ethiopian investment solutions - From Br1,000 to Br100,000+</p>
+                <div class="search-bar">
+                    <input type="text" id="serviceSearch" placeholder="Search investment packages...">
+                    <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories-section">
+            <div class="container">
+                <h2 class="text-center mb-2">Browse by Investment Category</h2>
+                <div class="categories-grid">
+                    <div class="category-card" data-category="regular-packages">
+                        <i class="fas fa-seedling"></i>
+                        <h3>Regular Packages</h3>
+                        <p>Perfect for beginners - Low risk, steady returns</p>
+                        <span class="service-count">Br1,000 - Br16,000</span>
+                    </div>
+                    <div class="category-card" data-category="premium-packages">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Premium Packages</h3>
+                        <p>Higher returns in shorter time</p>
+                        <span class="service-count">Br20,000 - Br60,000</span>
+                    </div>
+                    <div class="category-card" data-category="vip-packages">
+                        <i class="fas fa-crown"></i>
+                        <h3>VIP Packages</h3>
+                        <p>Maximum returns for serious investors</p>
+                        <span class="service-count">Br100,000+</span>
+                    </div>
+                    <div class="category-card" data-category="referral-program">
+                        <i class="fas fa-users"></i>
+                        <h3>Referral Program</h3>
+                        <p>Earn Br50 + 10% commission</p>
+                        <span class="service-count">Unlimited Earnings</span>
+                    </div>
+                    <div class="category-card" data-category="deposit-methods">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <h3>Deposit Methods</h3>
+                        <p>CBE Birr, M-Birr, Bank Transfer</p>
+                        <span class="service-count">Instant Processing</span>
+                    </div>
+                    <div class="category-card" data-category="portfolio-tracking">
+                        <i class="fas fa-chart-bar"></i>
+                        <h3>Portfolio Tracking</h3>
+                        <p>Real-time investment monitoring</p>
+                        <span class="service-count">Live Dashboard</span>
+                    </div>
+                    <div class="category-card" data-category="customer-support">
+                        <i class="fas fa-headset"></i>
+                        <h3>24/7 Support</h3>
+                        <p>Amharic & English assistance</p>
+                        <span class="service-count">Always Available</span>
+                    </div>
+                    <div class="category-card" data-category="secure-platform">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Secure Platform</h3>
+                        <p>Bank-level security & encryption</p>
+                        <span class="service-count">100% Protected</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Services -->
+        <section class="featured-services">
+            <div class="container">
+                <h2 class="text-center mb-2">Featured Investment Packages</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400&h=220&fit=crop" alt="Starter Package">
+                        <div class="service-info">
+                            <div class="freelancer-info">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face" alt="Abebe Tesfaye" class="freelancer-avatar">
+                                <span class="freelancer-name">Abebe Tesfaye</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9 (327)</span>
+                                </div>
+                            </div>
+                            <h3>Starter Investment Package</h3>
+                            <p>Perfect for beginners! Start your investment journey with our low-risk starter package. Build wealth safely with guaranteed returns.</p>
+                            <div class="service-features">
+                                <span><i class="fas fa-check"></i> Br1,000 - Br1,500 Investment</span>
+                                <span><i class="fas fa-check"></i> 15% Returns</span>
+                                <span><i class="fas fa-check"></i> 30 Days Duration</span>
+                            </div>
+                            <div class="service-footer">
+                                <div class="delivery-time">
+                                    <i class="fas fa-clock"></i> 30 days cycle
+                                </div>
+                                <div class="price">Starting at Br1,000</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=220&fit=crop" alt="Silver Package">
+                        <div class="service-info">
+                            <div class="freelancer-info">
+                                <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=40&h=40&fit=crop&crop=face" alt="Tigist Alemayehu" class="freelancer-avatar">
+                                <span class="freelancer-name">Tigist Alemayehu</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0 (189)</span>
+                                </div>
+                            </div>
+                            <h3>Silver Investment Package</h3>
+                            <p>Balanced risk and reward for growing investors. Enjoy higher returns with our popular silver package.</p>
+                            <div class="service-features">
+                                <span><i class="fas fa-check"></i> Br4,000 - Br8,000 Investment</span>
+                                <span><i class="fas fa-check"></i> 22%-28% Returns</span>
+                                <span><i class="fas fa-check"></i> 21 Days Duration</span>
+                            </div>
+                            <div class="service-footer">
+                                <div class="delivery-time">
+                                    <i class="fas fa-clock"></i> 21 days cycle
+                                </div>
+                                <div class="price">Starting at Br4,000</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=400&h=220&fit=crop" alt="Gold Package">
+                        <div class="service-info">
+                            <div class="freelancer-info">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face" alt="Dawit Bekele" class="freelancer-avatar">
+                                <span class="freelancer-name">Dawit Bekele</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.8 (256)</span>
+                                </div>
+                            </div>
+                            <h3>Gold Investment Package</h3>
+                            <p>Premium returns for serious investors. Fast growth with our gold package - 30%-35% returns in just 14 days!</p>
+                            <div class="service-features">
+                                <span><i class="fas fa-check"></i> Br10,000 - Br16,000 Investment</span>
+                                <span><i class="fas fa-check"></i> 30%-35% Returns</span>
+                                <span><i class="fas fa-check"></i> 14 Days Duration</span>
+                            </div>
+                            <div class="service-footer">
+                                <div class="delivery-time">
+                                    <i class="fas fa-clock"></i> 14 days cycle
+                                </div>
+                                <div class="price">Starting at Br10,000</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=220&fit=crop" alt="Platinum Package">
+                        <div class="service-info">
+                            <div class="freelancer-info">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=40&h=40&fit=crop&crop=face" alt="Sara Hailu" class="freelancer-avatar">
+                                <span class="freelancer-name">Sara Hailu</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9 (403)</span>
+                                </div>
+                            </div>
+                            <h3>Platinum Premium Package</h3>
+                            <p>High returns in record time! Our platinum package delivers 40%-45% returns in just 10 days with priority support.</p>
+                            <div class="service-features">
+                                <span><i class="fas fa-check"></i> Br20,000 - Br30,000 Investment</span>
+                                <span><i class="fas fa-check"></i> 40%-45% Returns</span>
+                                <span><i class="fas fa-check"></i> 10 Days Duration</span>
+                            </div>
+                            <div class="service-footer">
+                                <div class="delivery-time">
+                                    <i class="fas fa-clock"></i> 10 days cycle
+                                </div>
+                                <div class="price">Starting at Br20,000</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=220&fit=crop" alt="VIP Elite Package">
+                        <div class="service-info">
+                            <div class="freelancer-info">
+                                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=40&h=40&fit=crop&crop=face" alt="Yohannes Tadesse" class="freelancer-avatar">
+                                <span class="freelancer-name">Yohannes Tadesse</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0 (194)</span>
+                                </div>
+                            </div>
+                            <h3>VIP Elite Package</h3>
+                            <p>Maximum returns for elite investors! Get 70%-100% returns in just 3-5 days with dedicated account management.</p>
+                            <div class="service-features">
+                                <span><i class="fas fa-check"></i> Br100,000+ Investment</span>
+                                <span><i class="fas fa-check"></i> 70%-100% Returns</span>
+                                <span><i class="fas fa-check"></i> 3-5 Days Duration</span>
+                            </div>
+                            <div class="service-footer">
+                                <div class="delivery-time">
+                                    <i class="fas fa-clock"></i> 3-5 days cycle
+                                </div>
+                                <div class="price">Starting at Br100,000</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=220&fit=crop" alt="Referral Program">
+                        <div class="service-info">
+                            <div class="freelancer-info">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=40&h=40&fit=crop&crop=face" alt="Hiwot Mekonnen" class="freelancer-avatar">
+                                <span class="freelancer-name">Hiwot Mekonnen</span>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <span>4.9 (567)</span>
+                                </div>
+                            </div>
+                            <h3>Referral Rewards Program</h3>
+                            <p>Earn unlimited income by referring friends! Get Br50 welcome bonus plus 10% commission on all their investments.</p>
+                            <div class="service-features">
+                                <span><i class="fas fa-check"></i> Br50 Per Referral</span>
+                                <span><i class="fas fa-check"></i> 10% Commission</span>
+                                <span><i class="fas fa-check"></i> Unlimited Earnings</span>
+                            </div>
+                            <div class="service-footer">
+                                <div class="delivery-time">
+                                    <i class="fas fa-clock"></i> Instant rewards
+                                </div>
+                                <div class="price">Free to Join</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="how-it-works">
+            <div class="container">
+                <h2 class="text-center mb-2">How Investment Works</h2>
+                <div class="steps-grid">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Create Account</h3>
+                        <p>Register for free and get your unique referral code instantly</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Choose Package</h3>
+                        <p>Select from Br1,000 to Br100,000+ investment packages</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Make Deposit</h3>
+                        <p>Deposit using CBE Birr, M-Birr, or bank transfer</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3>Earn Returns</h3>
+                        <p>Get 15%-100% returns in 3-30 days and track in real-time</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Concordial Nexus</h3>
+                    <p>Ethiopia's premier trading and investment platform. Secure, fast, and trusted by thousands.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Investment</h4>
+                    <ul>
+                        <li><a href="auth/register.php">Get Started</a></li>
+                        <li><a href="auth/login.php">Login</a></li>
+                        <li><a href="pricing.html">Investment Plans</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Concordial Nexus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
